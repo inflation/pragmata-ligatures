@@ -1,0 +1,20 @@
+#+TITLE: pragmata-ligatures layer
+
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+
+* Description
+This layer adds support for ligatures in PragmataPro fonts. Current version of the font is 0.826
+
+** Features:
+   - Enable ligatures in prog mode.
+   - Enable global-prettify-symbols-mode.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =pragmata-ligatures= to the existing =dotspacemacs-configuration-layers= list in this
+file.
